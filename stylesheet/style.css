@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*content*/
+
+header{
+    background-color:#654377 ;
+}
+.container{
+   
+   max-width: 85vw;
+    /*border: 2px solid green;*/
+    margin-left: 80px;
+   
+    
+    
+}
+.head{
+    display: inline-flex;
+    color: white;
+    font-size: 25px;
+    padding: 5px 0;
+    
+}
+.navigation{
+display: inline-flex;
+
+margin-top: 10px;
+
+float: right;
+font-size: 15px;
+
+
+}
+a{
+    
+    color: #5EBD8B;
+    text-decoration: none;
+    padding-right: 20px;
+    
+    
+  
+}
+.headpart{
+    
+    display: flex;
+    width: 84vw;
+   
+   padding-top: 50px;
+
+
+    
+}
+
+.heading{
+    display: inline-flex;
+    width: 84vw;
+    font-size: 45px;
+    color: white;
+    padding-top: 90px;
+    
+}
+.line{
+   
+    height: 150px;
+    margin-top: 100px;
+margin-right: 110px;
+    
+}
+.para{
+  
+    color:#B2A1BC;
+    font-size: 20px;
+    padding-top: 100px;
+    line-height: 1.5;
+    
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    /*margin-left: 300px;*/
+    
+   
+}
+.btn{
+    
+    padding: 10px 20px;
+    
+    color: white;
+    background-color: #5EBD8B;
+    border-radius: 17px;
+    border-style: none;
+    
+}
+h3{
+    font-size: 35px;
+    padding: 30px 0;
+}
+
+.second-section{
+    display: inline-flex;
+    
+    width: 40vw;
+    border: 2px solid red;
+    line-height: 1.5;
+}
+h3{
+    display: inline-block;
+}
+.paragraph{
+    display: flex;
+    font-size: 20px;
+   
+}
+
+.line{
+    
+}
+.third-section{
+   display: inline-block;
+   width: 40vw;
+   border: 2px solid blue;
+   vertical-align: top;
+}
+.section-para{
+    
+    padding: 20px 0;
+}
+.fourth-class{
+    background-color: #FAFAFA;
+    display: inline-block;
+}
+.img{
+display: inline-block;
+width: 30vw;
+height: 35vh;
+object-fit: cover;
+}
+.fourth-heading{
+    display: inline-block;
+    vertical-align: top;
+}
+.fourth-para{
+display: inline-block;
+vertical-align: top;
+margin-left: 300px;
+}

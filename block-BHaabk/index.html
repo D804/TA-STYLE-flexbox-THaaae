@@ -15,80 +15,83 @@
 
 
  <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <title>Flexbox</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-    
-        <header class="container">
-            
-            <h1>NETPAYSHOP</h1>
-            <nav class="nav" >
-                <a href="#">Home</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="stylesheet/style.css">
+       <script src="https://kit.fontawesome.com/f98f63fd9d.js" crossorigin="anonymous"></script>
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+   </head>
+  <body id="top">
+    <header>
+        <div class="container  flex">
+           <a class="logo" href="#"> NETPAYSHOP</a>
+           <nav class="nav">
+              <a href="#">HOME</a>
+              <a href="#">GALLERY</a>
+              <a href="#">ABOUT</a>
+              <a href="#">BLOG</a>
+           </nav>
+        </div>
+    </header>
+    <main>
+        <article class="article">
+            <div class="container flex">
+               <div class="col-1 ">
+                  <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eaque numquam molestias 
+                   corporis voluptatem ea ducimus omnis recusandae cumque, architecto alias magnam autem,
+                   mollitia similique maxime consequatur! Illo, beatae laborum.
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eaque numquam molestias 
+                   corporis voluptatem ea ducimus omnis recusandae cumque, architecto alias magnam autem,
+                   mollitia similique maxime consequatur! Illo, beatae laborum.
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eaque numquam molestias 
+                   corporis voluptatem ea ducimus omnis recusandae cumque, architecto alias magnam autem,
+                   mollitia similique maxime consequatur! Illo, beatae laborum
+                   Ipsa eaque numquam molestias 
+                   corporis voluptatem ea ducimus omnis recusandae cumque, architecto alias magnam autem,
+                   mollitia similique maxime consequatur! Illo, beatae laborum</p>
+
+                </div>
+                <div>
+                   <img  class="article-img"src="assets/media/pinhole_kids_15-1024x683.jpg" alt="kids-image">
+                </div>
+            </div>
+        </article>
+        <section>
+            <div class="container flex">
+                <div class="col-2">
+                   <img class="image" src="assets/media/pinhole_kids_22-1024x681.jpg">
+                   <img class="image" src="assets/media/pinhole_adventure_08-1024x655.jpg">
+                   <img class="image" src="assets/media/pinhole_portrait_28-1024x683.jpg">
+                   <img class="image" src="assets/media/pinhole_kids_15-1024x683.jpg">
+                   <img class="image" src="assets/media/pinhole_adventure_25-1024x683.jpg">
+                   <img class="image" src="assets/media/pinhole_adventure_18-1024x683.jpg">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <nav class="navigation">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                
             </nav>
-        </header>
-        <article class="container1">
-            <div class="col-1">
-                <h2>Lorem ipsum</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> 
-                   labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>
-                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <br>
-                   voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>
-                   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> 
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <br>
-                    voluptate</p>
-            </div>
-            <div class="col-2">
-                <h2>LOREM IPSUM</h2>
-                <img  class="img" src="n4.jpg" alt="Loading error">
-
-            </article>
-            </div>
-            <gallery class="container2">
-                
-                <div class="col-3">
-                    <img class="img" src="n4.jpg" alt="Loading error">
-
-                </div>
-                <div class="col-4">
-                    <img class="img" src="n4.jpg" alt="Loading error">
-                </div>
-                <div class="col-5">
-                    <img class="img" src="n4.jpg" alt="Loading error">
-                </div>
-                
-                
-
-                <div class="col-6">
-                    <img class="img" src="n4.jpg" alt="Loading error">
-
-                </div>
-                
-                <div class="col-7">
-                    <img class="img" src="n4.jpg" alt="Loading error">
-                </div>
-                <div class="col-8">
-                    <img class="img" src="n4.jpg" alt="Loading error">
-                </div>
-                
-
-
-            </gallery>
-       
-    
-        </body>
-        <footer>
-            <div class="foot container">
-                
-            <small>&DEEPAK</small>
-            </div>
-        </footer>
-    
+        </div>
+    </footer>
+    <a class="btn" href="#top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+  </body>
 </html>

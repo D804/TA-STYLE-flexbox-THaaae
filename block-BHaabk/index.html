@@ -1,0 +1,97 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+
+
+ <!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="stylesheet/style.css">
+       <script src="https://kit.fontawesome.com/f98f63fd9d.js" crossorigin="anonymous"></script>
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+   </head>
+  <body id="top">
+    <header>
+        <div class="container  flex">
+           <a class="logo" href="#"> NETPAYSHOP</a>
+           <nav class="nav">
+              <a href="#">HOME</a>
+              <a href="#">GALLERY</a>
+              <a href="#">ABOUT</a>
+              <a href="#">BLOG</a>
+           </nav>
+        </div>
+    </header>
+    <main>
+        <article class="article">
+            <div class="container flex">
+               <div class="col-1 ">
+                  <h1>Lorem ipsum dolor sit amet consectetur</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eaque numquam molestias 
+                   corporis voluptatem ea ducimus omnis recusandae cumque, architecto alias magnam autem,
+                   mollitia similique maxime consequatur! Illo, beatae laborum.
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eaque numquam molestias 
+                   corporis voluptatem ea ducimus omnis recusandae cumque, architecto alias magnam autem,
+                   mollitia similique maxime consequatur! Illo, beatae laborum.
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eaque numquam molestias 
+                   corporis voluptatem ea ducimus omnis recusandae cumque, architecto alias magnam autem,
+                   mollitia similique maxime consequatur! Illo, beatae laborum
+                   Ipsa eaque numquam molestias 
+                   corporis voluptatem ea ducimus omnis recusandae cumque, architecto alias magnam autem,
+                   mollitia similique maxime consequatur! Illo, beatae laborum</p>
+
+                </div>
+                <div>
+                   <img  class="article-img"src="assets/media/pinhole_kids_15-1024x683.jpg" alt="kids-image">
+                </div>
+            </div>
+        </article>
+        <section>
+            <div class="container flex">
+                <div class="col-2">
+                   <img class="image" src="assets/media/pinhole_kids_22-1024x681.jpg">
+                   <img class="image" src="assets/media/pinhole_adventure_08-1024x655.jpg">
+                   <img class="image" src="assets/media/pinhole_portrait_28-1024x683.jpg">
+                   <img class="image" src="assets/media/pinhole_kids_15-1024x683.jpg">
+                   <img class="image" src="assets/media/pinhole_adventure_25-1024x683.jpg">
+                   <img class="image" src="assets/media/pinhole_adventure_18-1024x683.jpg">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <nav class="navigation">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                
+            </nav>
+        </div>
+    </footer>
+    <a class="btn" href="#top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+  </body>
+</html>

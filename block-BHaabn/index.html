@@ -8,48 +8,72 @@
 -->
 
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <meta charset="utf-8">
-        <title>Flexbox</title>
-        <link rel="stylesheet" href="assets/stylesheet/style.css">
-
+<html lang="en">
+    <head>  
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;0,700;1,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="stylesheet/style.css">
+      <script src="https://kit.fontawesome.com/f98f63fd9d.js" crossorigin="anonymous"></script>
     </head>
-    <body>
-        <header>
-            <div class="container">
-                <img class="logo"src="assets/media/logo.svg" alt="Loading error">
-                <nav>
-                    <a href="#">HOME</a>
-                    <a href="#"><span>GALLERY</span></a>
-                    <a href="#">BLOG</a>
-                </nav>
-            </div>
-        </header>
-
-        <section>
-            <div class="heading">
-            <h1>GALLERY</h1>
-            </div>
-            <div class="gallery container">
-            <img src="assets/media/01.png" alt="Loading error">
-            <img src="assets/media/02.png" alt="Loading error">
-            <img src="assets/media/03.png" alt="Loading error">
-            <img src="assets/media/04.png" alt="Loading error">
-            <img src="assets/media/05.png" alt="Loading error">
-            <img src="assets/media/06.png" alt="Loading error">
-            </div>
-            
-        </section>
-        <footer class="foot">
-            <div class="container ">
-<small>&copy;Alt Campus</small>
-<div class="social container">
-<img class=" sociallink"src="assets/media/facebook.svg" alt="Loading error">
-<img  class="sociallink"src="assets/media/twiteer.svg" alt="Loading error">
-     </div> 
-            </div>
-            
-        </footer>
-    </body>
+  <body>
+     <header>
+       <div class="container flex">
+          <a class="logo" href="#">NETPAYSHOP</a>
+          <div class="nav">
+              <a href="#">HOME</a>
+               <a class="" href="#"><span class="gallery">GALLERY</span></a></span>
+              <a href="#">ABOUT</a>
+          </div>
+       </div>
+     </header> 
+     <main>
+         <section>
+             <div class="container">
+                
+                  <h1>GALLERY</h1>
+                  <div class="flex wrap">
+                    <div class="col">
+                       <img src="assets/media/01.png" alt="panting">  
+                    </div>
+                    <div class="col">
+                       <img src="assets/media/02.png" alt="panting">  
+                    </div>  
+                 
+                    <div class="col">
+                       <img src="assets/media/03.png" alt="panting">  
+                    </div>
+                    <div class="col">
+                       <img src="assets/media/04.png" alt="panting">  
+                    </div>
+                    <div class="col">
+                       <img src="assets/media/05.png" alt="panting">  
+                    </div>
+                    <div class="col">
+                       <img src="assets/media/06.png" alt="panting">  
+                    </div>
+              
+                  </div>
+             </div>
+                    
+          </section>
+     </main>
+     <footer class="footer">
+         <div class="container flex">
+              <small class="copy">&copy; Altcampus</small>
+              <nav class="nav">
+                <a href="#">
+                   <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                   <i class="fab fa-twitter-square"></i>
+                </a>
+              </nav>
+          
+         </div>
+     </footer>
+    
+  </body>
 </html>

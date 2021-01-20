@@ -1,0 +1,92 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+
+<!--content-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment2</title>
+        <script src="https://kit.fontawesome.com/f98f63fd9d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="stylesheet/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <header class="head">
+        <div class="container flex">
+            <a class="logo" href="#">NETPAYSHOP</a>
+            <nav class="nav">
+                <a href="#"><img src="assets/icons/bell.svg"></a>
+                <a href="#"> 
+                    <span>Sarah Jone</span> 
+                    <img src="assets/icons/user.svg"></a>
+            </nav>
+        </div>
+      </header>
+      <main class="container flex  padding">
+        <aside class="aside ">
+           <nav class="aside-nav">
+             <a href="#">
+               <img src="assets/icons/dashboard.svg" alt="dashbord">
+               <span>Dashboard</span>
+             </a>
+             <a class="articles-border" href="#">
+              <img src="assets/icons/article.svg" alt="dashbord">
+              <span class="articles-text">Articles</span>
+             </a>
+             <a href="#">
+               
+                <img src="assets/icons/analytics.svg" alt="dashbord">
+                <span>Analytics</span>
+             </a>
+             <a href="#">
+               
+                <img src="assets/icons/inbox.svg" alt="dashbord">
+                <span>Inbox</span>
+             </a>
+             <a href="#">
+               
+                <img src="assets/icons/setting.svg" alt="dashbord">
+                <span>setting</span>
+             </a>
+           </nav>
+           <button class="btn">
+             <a href="#"><img src="assets/icons/log-out.svg" alt="logout"></a>
+             <span class="logout">Log Out</span>
+           </button>
+        </aside>
+        <article>
+            <img class="article-img" src="assets/01.png" alt="article">
+            <h1>Why we are doing AltCampus?</h1>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A architecto necessitatibus voluptatum delectus sit eos cumque ea eaque? Nobis quo hic quaerat at, minima tempora blanditiis et illum architecto eaque.
+
+           </p>
+            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, repellendus. Aliquid porro iusto voluptatum consequuntur, consectetur odio ipsa molestiae excepturi dicta vitae officiis quis culpa necessitatibus quae quod, dolorem ducimus?</p>
+            <a class="more-btn" href="#"> Read More</a>
+        </article>
+      </main>  
+    </body>
+    <footer class="footer">
+        <div class="container flex">
+            <small>&copy; AltCampus</small>
+            <nav>
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter-square"></i>
+                    
+                </a>
+            </nav>
+        </div>
+    </footer>
+</html>

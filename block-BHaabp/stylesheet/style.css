@@ -1,0 +1,283 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*content*/
+body{
+
+    font-family: 'Fraunces', serif;
+    line-height: 1.5;
+  
+    
+}
+.container{
+    max-width: 90%;
+   margin-left: 60px;
+  
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header{
+    
+    position: absolute;
+    padding: 20px 0;
+    width: 100%;
+}
+.padding{
+    padding: 80px 0;
+}
+
+.col{
+    
+    flex:0 1 46%;
+    
+}
+
+.social{
+        display: flex;
+        flex-direction: column;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #5EBD8B;
+    margin-left: 20px;
+    font-weight: 600;
+ 
+}
+.brand{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+ 
+.hero{
+
+    background: linear-gradient( to left ,#774079  ,#604678 ) ;
+    padding: 170px 0 120px 0 ;
+} 
+.article-section{
+    background-color: white;
+    border-bottom: 2px solid #DFDFDF;
+}
+h1{
+    font-size: 45px;
+    color: white;
+}
+.col-left{
+   
+    border-right: 1px solid #E3E3E3;
+    
+}
+.heading{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px 0;
+    color: #666666;
+}
+strong{
+
+font-weight: 800
+
+}  
+.hero-text{
+
+    color: #B1A0BC;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn{
+    
+    border-radius: 20px;
+    border: none;
+    padding: 15px 55px;
+    margin-top: 20px;
+} 
+.hero-btn{
+    
+    background-color: #5EBD8B;
+}
+
+.hero a{
+    
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+.text{
+    
+    font-size: 18px ;
+    font-weight: 600;
+    color: #868686;
+    line-height: 2;
+
+}
+.article-btn{
+    
+    border: 1px solid #E3E3E3;
+    background-color: #FFFFFF;
+}
+.col a{
+    
+    text-decoration: none;
+    color: #666666;
+    font-weight: 700;
+    word-spacing: 5px;
+}
+.check-text{
+    
+    font-size: 18px ;
+    font-weight: 600;
+    color: #868686;
+    padding-top: 30px;
+}
+.col i{
+    
+    color: #5EBD8B;
+    margin-right: 10px;
+}
+.blog-heading{
+    
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px 0;
+    color: #666666;
+}
+.blog-section{
+  
+    background-color: #FAFAFA;
+}
+.blog-article{
+  
+    background-color: white;
+    border-bottom: 2px solid #E3E3E3;
+    margin: 45px;
+}
+.col-1{
+    flex: 0 1 30%;
+    font-size: 0;
+}
+
+.col-2{
+  
+    flex: 0 1 70%;
+    padding: 50px;
+}
+.col-2 a{
+  
+    text-decoration: none;
+    color: #666666;
+    font-weight: 700;
+}
+.blog-section a{
+  
+    text-decoration: none;
+    color: #666666;
+    font-weight: 700;
+}
+.blog-btn{
+  
+    text-align: center;
+}
+.form-control{
+  
+    padding: 10px 10px;
+    display: block;
+    margin: 20px 0;
+    width: 90%;
+    border: 1px solid #E3E3E3;
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 16px;
+ 
+  
+    
+}
+input.form-control{
+    width: 40%;
+}
+.social{
+
+    align-self: flex-start;
+    padding-top: 30px;
+
+}
+.social a{
+    
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.social address{
+    
+    display: flex;
+    color: #666666;
+    font-weight: 700;
+    word-spacing: 5px;
+   
+    
+}
+.footer{
+    
+    background-color: #FAFAFA;
+    padding: 80px 0;
+    color: #BBBBBB;
+    text-align: center;
+    border-top: 2px solid #DFDFDF;
+}
+
+
+
+

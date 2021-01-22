@@ -1,0 +1,177 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-3.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!--content-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+       <meta charset="UTF-8">
+       <title>Assignment3</title>
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="stylesheet/style.css">
+       <script src="https://kit.fontawesome.com/f98f63fd9d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header">
+        <div class="container flex">
+            <a  class="brand " href="#">Prism</a>
+            <nav class="nav">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">GENERIC</a>
+                <a href="#">ELEMENTS</a>
+            </nav>
+            
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container flex">
+                <div class=" col col-left">
+                    <h1>welcome to prism,a free responsive site template by <strong>TEMPLATED</strong></h1>
+
+                </div>
+                <div class="col col-right">
+                    <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Harum dolorem earum sunt reprehenderit illo libero, 
+                       voluptate fugiat autem cum.
+                    </p>
+                    <button class="btn hero-btn"><a href="#"> GET STARTED</a></button>
+                </div>
+            </div>
+        </section>
+        <section class="article-section">
+            <div class="container flex padding">
+               <article class="col col-left">
+                 <h2 class="heading">
+                     Magna feugiat adipiscing
+                </h2>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates modi sed incidunt facilis dolor, non possimus ut ducimus natus in? Repellendus incidunt, aliquam libero blanditiis temporibus quia ea accusamus quam?</p>
+                <button class="btn article-btn"><a href="#"> LEARN MORE </a></button>
+              </article>
+              <div class="col col-right">
+                  <p class="check-text">
+                    <i class="fas fa-check"></i>
+                    ipsum nisi sed cursus magna
+                  </p>
+                  <p class="check-text">
+                    <i class="fas fa-check"></i>
+                     ipsum nisi sed cursus magna
+                  </p>
+                  <p class="check-text">
+                     <i class="fas fa-check"></i>
+                     ipsum nisi sed cursus magna
+                  </p>
+                  <p class="check-text">
+                    <i class="fas fa-check"></i>
+                    ipsum nisi sed cursus magna
+                  </p>
+                  <p class="check-text">
+                    <i class="fas fa-check"></i>
+                    ipsum nisi sed cursus magna
+                  </p>
+
+              </div>
+            </div>
+        </section>
+        <section class="blog-section padding">
+            <div class="container">
+                <article class="blog-article flex ">
+                    <div class=" col-1">
+                        <img src="assets/pic01.jpg" alt="city">
+                    </div>
+                    <div class="col-2">
+                        <h3 class="blog-heading">Ipsum pharetra tempus </h3>
+                        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo cum, molestias quis voluptatem optio neque necessitatibus  </p>
+                        <button class="btn article-btn"><a href="#">DETAILS</a></button>
+                   
+                    </div>
+                </article>
+                <article class="blog-article flex ">
+                    <div class=" col-1">
+                        <img src="assets/pic02.jpg" alt="travel">
+                    </div>
+                    <div class="col-2">
+                        <h3 class="blog-heading">Magna consequat felis </h3>
+                        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo cum, molestias quis voluptatem optio neque necessitatibus  </p>
+                        <button class="btn article-btn"><a href="#">DETAILS</a></button>
+                       
+                    </div>
+                </article>
+                <article class="blog-article flex  ">
+                    <div class=" col-1">
+                        <img src="assets/pic03.jpg" alt="gadjet">
+                    </div>
+                    <div class="col-2">
+                        <h3 class="blog-heading">Vitae placerat adipiscing </h3>
+                        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo cum, molestias quis voluptatem optio neque necessitatibus  </p>
+                        <button class="btn article-btn"><a href="#">DETAILS</a></button>
+                           
+                    </div>
+                </article>
+                    <div class="blog-btn">
+                       <button class="btn article-btn"><a href="#">IPSUM MAGNA TEMPUS</a></button>
+                    </div>
+               
+            </div>
+        </section>
+        <section>
+            <div class="container flex padding">
+                <div class="col col-left">
+                   <h3 class="heading">Orci malesuada</h3>
+                   <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur eius odit, enim earum assumenda .</p>
+      
+                   <form action="">
+                      <div class="flex">
+                         <input class="form-control" type="text" placeholder="Name"/>
+                         <input class="form-control" type="email" placeholder="Email"/>
+                      </div>
+                     <textarea class="form-control" name="" placeholder="Message"rows="5"></textarea>
+                     <button class="btn article-btn"><a href="#" >SEND MESSAGE</a></button>
+                   </form>
+                </div>
+        
+                <div class="col col-right social ">
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                      twitter.com/untitled-tld
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                      facebook.com/untitled-tld
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                       instagram.com/untitled-tld
+                    </a>
+                    <a href="#">
+                     <i class="fas fa-envelope"></i>
+                     information.com/untitled-tld
+                    </a>
+                    <address >
+                         <i class="fas fa-home"></i>
+                           1234 Somewhere Road Suite 9823 <br>
+                           Nashvile,TN 00000-0000 
+                    </address>
+  
+                </div>
+    
+            </div>
+                   
+        </section>
+       
+
+    </main>
+    <footer class="footer">
+        <small>&copy; Untitled. All rights reserved.images:Unsplash. Design:TEMPLATED</small>
+    </footer>
+    
+    
+  </body>
+</html>
